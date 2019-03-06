@@ -1,0 +1,35 @@
+import tkinter    # note that module name has changed from Tkinter in Python 2 to tkinter in Python 3
+top = tkinter.Tk()
+# Code to add widgets will go here...
+top.mainloop()
+
+
+Import tkinter
+window=tkinter.tk()
+window.mainloop()
+
+import tkinter
+window=tkinter.tk()
+window.title("First tkinter")
+window.geometry("500*500")
+window.mainloop()
+
+import tkinter
+window=tkinter.Tk()
+label=tkinter.label(window,text="Label")
+button=tkinter.Button(window,text="button")
+label.pack()
+button.pack()
+window.mainloop()
+
+
+
+from tkinter import *
+top = Tk()
+L1 = Label(top, text = "User Name")
+L1.pack( side = LEFT)
+E1 = Entry(top, bd = 5)
+E1.pack(side = RIGHT)
+top.mainloop()
+
+
